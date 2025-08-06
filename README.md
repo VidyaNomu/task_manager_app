@@ -117,51 +117,6 @@ php artisan migrate
 php artisan serve
 ```
 
-## 📁 Project Structure
-
-```
-task-manager-app/
-├── task-manager-frontend/          # Vue.js Frontend
-│   ├── src/
-│   │   ├── components/            # Reusable components
-│   │   │   ├── LoginForm.vue      # Login form component
-│   │   │   ├── RegisterForm.vue   # Registration form
-│   │   │   ├── TaskCard.vue       # Individual task card
-│   │   │   ├── TaskForm.vue       # Task creation/edit form
-│   │   │   ├── TaskList.vue       # Task grid display
-│   │   │   ├── TaskStats.vue      # Statistics dashboard
-│   │   │   └── TaskFilters.vue    # Search and filter controls
-│   │   ├── views/                 # Page components
-│   │   │   ├── HomeView.vue       # Main dashboard
-│   │   │   ├── LoginView.vue      # Login page
-│   │   │   ├── RegisterView.vue   # Registration page
-│   │   │   └── AboutView.vue      # About page
-│   │   ├── stores/                # Pinia stores
-│   │   │   ├── auth.ts           # Authentication store
-│   │   │   └── tasks.ts          # Task management store
-│   │   ├── services/             # API services
-│   │   │   └── api.ts            # API integration layer
-│   │   ├── router/               # Vue Router
-│   │   │   └── index.ts          # Route definitions & guards
-│   │   ├── assets/               # Static assets
-│   │   │   └── main.css          # Global styles
-│   │   ├── App.vue               # Root component
-│   │   └── main.ts               # Application entry point
-│   ├── public/                   # Static files
-│   ├── package.json              # Dependencies & scripts
-│   ├── vite.config.ts           # Vite configuration
-│   ├── tsconfig.json            # TypeScript configuration
-│   └── vercel.json              # Vercel deployment config
-├── task-manager-backend/         # Laravel Backend (Manual Setup)
-│   ├── app/
-│   │   ├── Models/Task.php       # Task model
-│   │   └── Http/Controllers/Api/TaskController.php
-│   ├── database/migrations/      # Database migrations
-│   ├── routes/api.php           # API routes
-│   ├── config/cors.php          # CORS configuration
-│   └── composer.json            # PHP dependencies
-└── README.md                    # This file
-```
 
 ## 🎯 Usage Guide
 
@@ -292,7 +247,7 @@ npm run lint
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - **Vue.js** team for the amazing framework
 - **Pinia** for excellent state management
@@ -310,9 +265,7 @@ If you have any questions or need help, please:
 
 ---
 
-**Built with ❤️ using Vue.js 3, TypeScript, and modern web technologies**
 
----
 
 ## 🎉 Demo Credentials
 
